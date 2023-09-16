@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   margin: 0; 
+   padding: 20px;
+}
+
+.progress {
+    -webkit-appearance: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 20px;
+    background-color: #eee;
+}
+
+.progress::-webkit-progress-value { 
+    background-color: red;
+ }
+
+.progress::-moz-progress-bar {
+    background-color: red;
+} 
